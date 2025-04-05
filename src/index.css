@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Instrument+Serif:ital@0;1&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oranienbaum&family=Raleway:ital,wght@0,100..900;1,100..900&family=Uncial+Antiqua&display=swap');
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --font-logo: "Uncial Antiqua", system-ui;
+    --font-text: "Merriweather", serif;
+
+    --color-*: initial;
+    --color-light-background: #F5F3FF;
+    --color-light-secondary-background: #E1E2E1;
+    --color-light-third-background: #BCA6FF;
+    --color-dark-background: #120F2D;
+    --color-dark-secondary-background: #1E1B4B;
+    --color-dark-third-background: #3B3486;
+    --color-light-text: #1E1B4B;
+    --color-dark-text: #E1E2E1;
+    --color-light-button-color: #D3C1FF;
+    --color-dark-button-color: #755BB4;
+    --color-error-red: #EF4444;
+    --color-update-green: #28a745;
+}
+
+.headerLink {
+    @apply border-b-2 border-transparent hover:border-light-text dark:hover:border-dark-text xl:text-lg;
+}
+
+.homeDivs {
+    @apply text-light-text dark:text-dark-text font-text
+           mx-auto w-3/4
+           flex md:flex-row justify-between items-center gap-y-4
+           text-center md:text-start;
+}
+
+.homeBtn {
+    @apply bg-light-button-color dark:bg-dark-button-color
+           px-3 py-2 md:px-5 md:py-3 xl:px-6 lg:py-4
+           md:text-lg lg:text-xl font-text
+           cursor-pointer hover:bg-light-button-color/80 dark:hover:bg-dark-button-color/80 transition-all
+           rounded-xl md:rounded-2xl;
+}
+
+.navbarOpen {
+    @apply right-0;
+}
+
+.input {
+    @apply bg-light-third-background dark:bg-dark-third-background 
+           w-full p-2 lg:p-3 rounded-xl md:rounded-2xl;
+}
+
+.settingsInput {
+    @apply bg-light-third-background dark:bg-dark-third-background 
+           w-full md:w-1/2 p-2 lg:p-3 rounded-xl md:rounded-2xl;
+}
+
+.visibleUpdated {
+    @apply left-1/2;
+}
