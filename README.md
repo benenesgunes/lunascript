@@ -28,7 +28,7 @@ lunascript is a dream interpreter platform that uses AI to help users explore th
 
 | Tech        | Purpose                            |
 |-------------|------------------------------------|
-| React       | Frontend UI                        |
+| React, Vite | Frontend UI                        |
 | Tailwind CSS| Styling                            |
 | Gemini API  | Dream interpretation               |
 | Firebase    | Authentication & Database          |
