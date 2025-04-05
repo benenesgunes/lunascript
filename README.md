@@ -55,6 +55,12 @@ LunaScript is a dream interpreter platform that uses AI to help users explore th
   ```bash
   npm run dev
   ```
+## License
 
+This project is a nonprofit, solo initiative and is licensed under the MIT License.
+
+## Contributing
+
+As this is a solo project, contributions are not currently being accepted, but feel free to open an issue if you encounter any bugs.
 
    
