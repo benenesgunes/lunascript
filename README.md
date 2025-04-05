@@ -1,8 +1,13 @@
-# LunaScript 🌙
+# lunascript
 
-LunaScript is a dream interpreter platform that uses AI to help users explore the meanings of their dreams. This project was built as a self-improvement and learning experience — combining modern frontend tools with backend services and AI integration.
+![home](./public/screenshots/home.png)
+![journal](./public/screenshots/journal.png)
+![interpretation](./public/screenshots/interpretation.png)
+![archive](./public/screenshots/archive.png)
 
-## ✨ Features
+lunascript is a dream interpreter platform that uses AI to help users explore the meanings of their dreams. This project was built as a self-improvement and learning experience — combining modern frontend tools with backend services and AI integration.
+
+## Features
 
 - 🔮 **Dream Interpretation with Gemini API**  
   Users can write down their dreams, and LunaScript uses the Gemini API to generate insightful interpretations.
@@ -19,7 +24,7 @@ LunaScript is a dream interpreter platform that uses AI to help users explore th
 - ⚛️ **Frontend**  
   Built with React and styled with Tailwind CSS for a responsive, modern UI.
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Tech        | Purpose                            |
 |-------------|------------------------------------|
@@ -29,7 +34,7 @@ LunaScript is a dream interpreter platform that uses AI to help users explore th
 | Firebase    | Authentication & Database          |
 | Zustand     | Dark mode state management         |
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
