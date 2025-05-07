@@ -33,6 +33,7 @@ lunascript is a dream interpreter platform that uses AI to help users explore th
 | Gemini API  | Dream interpretation               |
 | Firebase    | Authentication & Database          |
 | Zustand     | Dark mode state management         |
+| React Router| Routing         |
 
 ## Installation
 
