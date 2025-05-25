@@ -9,19 +9,19 @@ lunascript is a dream interpreter platform that uses AI to help users explore th
 
 ## Features
 
-- 🔮 **Dream Interpretation with Gemini API**  
+- **Dream Interpretation with Gemini API**  
   Users can write down their dreams, and LunaScript uses the Gemini API to generate insightful interpretations.
 
-- 🔐 **Authentication with Firebase**  
+- **Authentication with Firebase**  
   Secure user login via Firebase Authentication.
 
-- ☁️ **Dream Storage**  
+- **Dream Storage**  
   Each user's dreams are saved and retrieved using Firebase Firestore.
 
-- 🌗 **Dark Mode Support**  
+- **Dark Mode Support**  
   Smooth light/dark mode switching using Zustand for state management.
 
-- ⚛️ **Frontend**  
+- ⚛**Frontend**  
   Built with React and styled with Tailwind CSS for a responsive, modern UI.
 
 ## Tech Stack
