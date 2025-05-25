@@ -21,7 +21,7 @@ lunascript is a dream interpreter platform that uses AI to help users explore th
 - **Dark Mode Support**  
   Smooth light/dark mode switching using Zustand for state management.
 
-- ⚛**Frontend**  
+- **Frontend**  
   Built with React and styled with Tailwind CSS for a responsive, modern UI.
 
 ## Tech Stack
